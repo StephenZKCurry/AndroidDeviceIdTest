@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_device_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:textSize="16sp"
+        tools:text="设备id：" />
+
+    <Button
+        android:id="@+id/btn_get_imei"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取IMEI"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_get_serial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取设备序列号" />
+
+    <Button
+        android:id="@+id/btn_get_mac_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取MAC地址"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_get_android_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取ANDROID_ID"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_get_supplier_device_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取补充设备标识" />
+
+    <Button
+        android:id="@+id/btn_get_device_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取设备标识（通用）" />
+
+</LinearLayout>
